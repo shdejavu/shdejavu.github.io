@@ -261,6 +261,10 @@ h3 {
   margin-top: 28px;
 }
 
+.hero-actions {
+  flex-wrap: nowrap;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -272,6 +276,7 @@ h3 {
   font-size: 0.9rem;
   font-weight: 790;
   line-height: 1;
+  white-space: nowrap;
   text-decoration: none;
   transition:
     transform 160ms ease,
@@ -761,13 +766,13 @@ h3 {
   }
 
   .hero-actions {
-    gap: 8px;
+    gap: 6px;
   }
 
   .hero-actions .button {
-    min-height: 40px;
-    padding: 10px 12px;
-    font-size: 0.8rem;
+    min-height: 38px;
+    padding: 9px 8px;
+    font-size: 0.72rem;
   }
 
   .portrait-frame {
@@ -832,7 +837,7 @@ h3 {
 
 @media (min-width: 540px) and (max-width: 760px) {
   .hero-copy {
-    max-width: 370px;
+    max-width: 100%;
   }
 
   .portrait-frame {
@@ -840,8 +845,8 @@ h3 {
     right: 0;
     top: 50%;
     bottom: auto;
-    width: clamp(160px, 31vw, 190px);
-    transform: translateY(-42%);
+    width: clamp(156px, 29vw, 180px);
+    transform: translateY(-95%);
   }
 }
 
