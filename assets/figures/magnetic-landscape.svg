@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img" aria-labelledby="title desc">
+  <title id="title">Magnetic materials stability and anisotropy landscape</title>
+  <desc id="desc">A stylized chart showing a convex hull, candidate magnetic compounds, and anisotropy markers.</desc>
+  <rect width="860" height="640" fill="#f8f6f0"/>
+  <rect x="70" y="80" width="720" height="430" rx="8" fill="#fff" stroke="#d9dfdc"/>
+  <g stroke="#d9dfdc" stroke-width="1">
+    <path d="M150 140v310M270 140v310M390 140v310M510 140v310M630 140v310M750 140v310"/>
+    <path d="M130 190h630M130 260h630M130 330h630M130 400h630"/>
+  </g>
+  <path d="M130 420 L228 392 L342 410 L463 346 L592 366 L760 280" fill="none" stroke="#16201e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M130 420 C270 324 428 256 760 190" fill="none" stroke="#b55d3a" stroke-width="3" stroke-dasharray="8 10"/>
+  <g>
+    <circle cx="228" cy="392" r="13" fill="#1d756f"/>
+    <circle cx="342" cy="410" r="10" fill="#c5a05a"/>
+    <circle cx="463" cy="346" r="15" fill="#b55d3a"/>
+    <circle cx="592" cy="366" r="11" fill="#8e2f2f"/>
+    <circle cx="668" cy="246" r="12" fill="#1d756f"/>
+    <circle cx="520" cy="220" r="9" fill="#c5a05a"/>
+    <circle cx="300" cy="255" r="8" fill="#8e2f2f"/>
+  </g>
+  <g fill="none" stroke="#16201e" stroke-width="4" stroke-linecap="round">
+    <path d="M463 298v-48"/>
+    <path d="M449 264l14-16 14 16"/>
+    <path d="M590 330c22-20 44-20 66 0"/>
+    <path d="M228 346c0-34 0-52 0-70"/>
+    <path d="M213 293l15-18 15 18"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="90" y="51" font-size="20" font-weight="800" fill="#16201e">Magnetic candidate landscape</text>
+    <text x="91" y="560" font-size="16" fill="#53615d">Composition / structure coordinate</text>
+    <text transform="translate(38 384) rotate(-90)" font-size="16" fill="#53615d">Relative stability</text>
+    <rect x="570" y="106" width="174" height="76" rx="8" fill="#f6f4ee" stroke="#d9dfdc"/>
+    <circle cx="592" cy="132" r="7" fill="#1d756f"/>
+    <text x="610" y="137" font-size="13" fill="#16201e">Stable / low energy</text>
+    <path d="M585 158h16" stroke="#b55d3a" stroke-width="3" stroke-dasharray="4 5"/>
+    <text x="610" y="163" font-size="13" fill="#16201e">Design frontier</text>
+  </g>
+</svg>

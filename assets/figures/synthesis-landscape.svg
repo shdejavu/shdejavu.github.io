@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img" aria-labelledby="title desc">
+  <title id="title">Synthesis-aware prediction landscape</title>
+  <desc id="desc">A stylized diagram linking predicted structures, free-energy landscapes, kinetics, and experimental validation.</desc>
+  <rect width="860" height="640" fill="#f8f6f0"/>
+  <path d="M0 0h860v640H0z" fill="#f8f6f0"/>
+  <g opacity=".95">
+    <path d="M92 464 C170 274 256 428 342 267 C428 108 540 366 632 224 C706 111 760 198 796 164" fill="none" stroke="#16201e" stroke-width="5"/>
+    <path d="M92 464 C170 274 256 428 342 267 C428 108 540 366 632 224 C706 111 760 198 796 164 L796 540 L92 540 Z" fill="#e8e2d2"/>
+  </g>
+  <g stroke="#d9dfdc" stroke-width="1">
+    <path d="M110 540h690"/>
+    <path d="M110 120v420"/>
+  </g>
+  <g>
+    <circle cx="342" cy="267" r="15" fill="#b55d3a"/>
+    <circle cx="632" cy="224" r="15" fill="#1d756f"/>
+    <circle cx="242" cy="400" r="11" fill="#c5a05a"/>
+    <circle cx="735" cy="188" r="11" fill="#8e2f2f"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="88" y="72" font-size="20" font-weight="800" fill="#16201e">From prediction to accessible materials</text>
+    <text x="106" y="586" font-size="16" fill="#53615d">Reaction coordinate / processing pathway</text>
+    <text transform="translate(44 392) rotate(-90)" font-size="16" fill="#53615d">Free energy</text>
+    <g transform="translate(150 132)">
+      <rect width="180" height="96" rx="8" fill="#fff" stroke="#d9dfdc"/>
+      <text x="18" y="34" font-size="16" font-weight="800" fill="#16201e">Predicted</text>
+      <text x="18" y="59" font-size="14" fill="#53615d">low-energy</text>
+      <text x="18" y="79" font-size="14" fill="#53615d">structures</text>
+      <path d="M126 40l21-12 21 12v24l-21 12-21-12z" fill="none" stroke="#b55d3a" stroke-width="4"/>
+    </g>
+    <g transform="translate(494 384)">
+      <rect width="218" height="104" rx="8" fill="#16201e"/>
+      <text x="20" y="36" font-size="16" font-weight="800" fill="#fff">Validation</text>
+      <text x="20" y="64" font-size="14" fill="#d5ded9">DFT, kinetics,</text>
+      <text x="20" y="84" font-size="14" fill="#d5ded9">refinement, synthesis</text>
+      <path d="M166 68l14 14 26-34" fill="none" stroke="#d68a54" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

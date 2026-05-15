@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI and DFT closed-loop materials discovery</title>
+  <desc id="desc">A stylized closed loop connecting composition space, machine learning, DFT validation, synthesis feedback, and database curation.</desc>
+  <rect width="860" height="640" fill="#f8f6f0"/>
+  <path d="M0 500 C170 428 258 507 422 444 C590 379 682 428 860 352 L860 640 L0 640 Z" fill="#e6d6bf"/>
+  <path d="M0 120 C145 162 260 78 410 116 C582 159 691 93 860 142" fill="none" stroke="#d9dfdc" stroke-width="2"/>
+  <g fill="none" stroke="#16201e" stroke-width="3" stroke-linecap="round">
+    <path d="M256 322 C264 190 368 116 490 140"/>
+    <path d="M594 220 C710 296 690 446 578 512"/>
+    <path d="M462 546 C315 544 210 450 256 322"/>
+  </g>
+  <g fill="#16201e">
+    <path d="M486 128l36 20-38 14 8-16-6-18Z"/>
+    <path d="M588 502l-38 11 17-36 7 17 14 8Z"/>
+    <path d="M244 334l-16-37 40 9-16 10-8 18Z"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(86 116)">
+      <rect width="226" height="128" rx="8" fill="#fff" stroke="#d9dfdc"/>
+      <text x="24" y="40" font-size="19" font-weight="800" fill="#16201e">Composition space</text>
+      <text x="24" y="73" font-size="15" fill="#53615d">Millions of possible</text>
+      <text x="24" y="96" font-size="15" fill="#53615d">structures and chemistries</text>
+      <circle cx="182" cy="88" r="10" fill="#b55d3a"/>
+      <circle cx="203" cy="70" r="7" fill="#1d756f"/>
+      <circle cx="160" cy="62" r="6" fill="#c5a05a"/>
+    </g>
+    <g transform="translate(500 88)">
+      <rect width="250" height="132" rx="8" fill="#16201e"/>
+      <text x="24" y="42" font-size="20" font-weight="800" fill="#fff">ML prioritization</text>
+      <text x="24" y="76" font-size="15" fill="#d5ded9">Active learning,</text>
+      <text x="24" y="99" font-size="15" fill="#d5ded9">screening, uncertainty</text>
+      <path d="M184 87l20-28 22 46h-68l18-30z" fill="#d68a54"/>
+    </g>
+    <g transform="translate(560 408)">
+      <rect width="216" height="128" rx="8" fill="#fff" stroke="#d9dfdc"/>
+      <text x="24" y="40" font-size="19" font-weight="800" fill="#16201e">DFT validation</text>
+      <text x="24" y="73" font-size="15" fill="#53615d">Stability, magnetism,</text>
+      <text x="24" y="96" font-size="15" fill="#53615d">electronic structure</text>
+      <path d="M160 84h34M177 67v34" stroke="#1d756f" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(130 412)">
+      <rect width="260" height="132" rx="8" fill="#fff" stroke="#d9dfdc"/>
+      <text x="24" y="42" font-size="19" font-weight="800" fill="#16201e">Synthesis feedback</text>
+      <text x="24" y="76" font-size="15" fill="#53615d">Experiment, databases,</text>
+      <text x="24" y="99" font-size="15" fill="#53615d">and the next search</text>
+      <path d="M184 96c18-30 41-31 54 0" fill="none" stroke="#b55d3a" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
