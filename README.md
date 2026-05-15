@@ -1,6 +1,6 @@
 # Weiyi Xia Personal Website
 
-Static GitHub Pages personal homepage for `weiyixia.github.io`.
+Static GitHub Pages personal homepage for `shdejavu.github.io`.
 
 ## Local Preview
 
